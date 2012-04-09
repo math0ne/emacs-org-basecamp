@@ -120,4 +120,5 @@ provided `request' string."
       (url-retrieve (org-camp-url "todo_lists.xml")
                     'org-camp-todo-url-callback))))
 
+(provide 'org-camp)
 ;;; org-camp ends here
